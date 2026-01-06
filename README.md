@@ -5,7 +5,7 @@ In Machine Learning Named Entity Recognition (NER) is a task of Natural Language
 
 # Named Entity Recognition (NER) using BiLSTM
 
-## 📌 Overview
+### 📌 Overview
 This project implements a Named Entity Recognition (NER) system using a deep learning approach.  
 NER is a core Natural Language Processing (NLP) task that involves identifying and classifying entities such as persons, locations, organizations, and others within text.
 
@@ -13,7 +13,7 @@ The model treats NER as a sequence labeling problem and predicts a tag for each 
 
 ---
 
-## 🧠 Model Architecture
+### 🧠 Model Architecture
 The NER model is built using TensorFlow and Keras with the following architecture:
 
 - **Embedding Layer**
@@ -32,7 +32,7 @@ This architecture is commonly used for classical NER tasks and performs well on 
 
 ---
 
-## 📂 Dataset & Preprocessing
+### 📂 Dataset & Preprocessing
 - The dataset consists of tokenized sentences with corresponding NER tags.
 - Words and tags are converted to integer indices.
 - Sentences are padded to a fixed maximum length to allow batch processing.
@@ -43,7 +43,7 @@ This architecture is commonly used for classical NER tasks and performs well on 
 
 ---
 
-## 🚀 Training
+### 🚀 Training
 - Framework: **TensorFlow 2.x**
 - Training performed using GPU acceleration when available
 - Loss function: categorical cross-entropy
@@ -52,40 +52,40 @@ This architecture is commonly used for classical NER tasks and performs well on 
 
 ---
 
-## 📊 Results
+### 📊 Results
 The notebook demonstrates successful training of a BiLSTM-based NER model.
 Evaluation metrics such as entity-level F1 score and precision/recall can be added as future improvements.
 
 ---
 
-## 🛠️ How to Run
+### 🛠️ How to Run
 Follow these instructions to set up the environment and run the Named Entity Recognition model.
 
-## 📋 Prerequisites
+### 📋 Prerequisites
 Ensure you have Python 3.8+ installed. It is recommended to use a virtual environment.
-## Create a virtual environment
+### Create a virtual environment
 python -m venv venv
 
-## Activate it
-## On Windows:
+### Activate it
+### On Windows:
 activate (env name eg:- e:/tf210 or just tf210)
-## On Mac/Linux:
+### On Mac/Linux:
 source venv/bin/activate
 
-## ⚙️ Installation
+### ⚙️ Installation
 1. Clone the repository.
 2. Install dependencies:
    pip install pandas numpy tensorflow spacy
 3. Download the spaCy English model:
    python -m spacy download en_core_web_sm
 
-## 📂 Dataset Setup
+### 📂 Dataset Setup
 Place your dataset (ner_dataset.csv) in a folder named data within the root directory
 
-## 🏃 Running the Notebook
+### 🏃 Running the Notebook
 Start the Jupyter Notebook server
 
-## 🔮 Future Improvements
+### 🔮 Future Improvements
 - Add CRF layer for improved tag decoding
 - Compute entity-level precision, recall, and F1 score
 - Experiment with pretrained embeddings (GloVe / FastText)
@@ -93,7 +93,7 @@ Start the Jupyter Notebook server
 
 ---
 
-## 📚 Technologies Used
+### 📚 Technologies Used
 - Python
 - TensorFlow / Keras
 - NumPy
@@ -101,5 +101,5 @@ Start the Jupyter Notebook server
 
 ---
 
-## 👤 Author
+### 👤 Author
 Amresh
