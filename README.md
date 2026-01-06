@@ -1,8 +1,7 @@
 # Named-Entity-Recognition
 In Machine Learning Named Entity Recognition (NER) is a task of Natural Language Processing to identify the named entities in a certain piece of text.
 
-![Uploading image.png…]()
-
+<img width="649" height="322" alt="delete" src="https://github.com/user-attachments/assets/0dc9ecfd-a30d-4168-9111-b8eb1bb44461" />
 
 # Named Entity Recognition (NER) using BiLSTM
 
@@ -62,3 +61,4 @@ Evaluation metrics such as entity-level F1 score and precision/recall can be add
 ## 🛠️ How to Run
 1. Clone the repository
 2. Install dependencies:
+3. Open and run the notebook:
