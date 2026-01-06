@@ -59,6 +59,47 @@ Evaluation metrics such as entity-level F1 score and precision/recall can be add
 ---
 
 ## 🛠️ How to Run
-1. Clone the repository
+Follow these instructions to set up the environment and run the Named Entity Recognition model.
+
+## 📋 Prerequisites
+Ensure you have Python 3.8+ installed. It is recommended to use a virtual environment.
+## Create a virtual environment
+python -m venv venv
+
+## Activate it
+## On Windows:
+activate (env name eg:- e:/tf210 or just tf210)
+## On Mac/Linux:
+source venv/bin/activate
+
+## ⚙️ Installation
+1. Clone the repository.
 2. Install dependencies:
-3. Open and run the notebook:
+   pip install pandas numpy tensorflow spacy
+3. Download the spaCy English model:
+   python -m spacy download en_core_web_sm
+
+## 📂 Dataset Setup
+Place your dataset (ner_dataset.csv) in a folder named data within the root directory
+
+## 🏃 Running the Notebook
+Start the Jupyter Notebook server
+
+## 🔮 Future Improvements
+- Add CRF layer for improved tag decoding
+- Compute entity-level precision, recall, and F1 score
+- Experiment with pretrained embeddings (GloVe / FastText)
+- Extend the model using Transformer-based architectures (BERT)
+
+---
+
+## 📚 Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+
+---
+
+## 👤 Author
+Amresh
