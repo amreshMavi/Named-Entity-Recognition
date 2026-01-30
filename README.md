@@ -84,6 +84,7 @@ Place your dataset (ner_dataset.csv) in a folder named data within the root dire
 
 ### 🏃 Running the Notebook
 Start the Jupyter Notebook server
+To test the frontend, you will have to save the model and put it in the "artifacts" folder in PyCharm.
 
 ### 🔮 Future Improvements
 - Add CRF layer for improved tag decoding
